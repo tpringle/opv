@@ -1,0 +1,8 @@
+[server]
+url = "https://octopus-deploy.mydomain.com" #this is required
+
+[checks]
+ProjectConnectivityPolicy = { SkipMachineBehavior = "SkipUnavailableMachines", AllowDeploymentsToNoTargets = false }
+IncludedLibraryVariableSetIds = ["LibraryVariableSets-124", "LibraryVariableSets-21"]
+IsDisabled = false
+TenantedDeploymentMode = "Untenanted"
