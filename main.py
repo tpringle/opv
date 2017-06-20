@@ -1,7 +1,7 @@
 import toml
 import requests
 import click
-import json
+
 from lazyme.string import color_print
 
 class loader(object):
