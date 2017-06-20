@@ -1,5 +1,4 @@
-# opv
-The Octopus Project Validator
+# Octopus Project Validator (opv)
 
 ## Outline
 
